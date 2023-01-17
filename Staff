@@ -1,0 +1,32 @@
+public class Staff { 
+  
+     public static void main(String[] args) { 
+         Coach coach1, coach2; 
+         EsportsTeam before, after; 
+  
+         coach1 = new Coach(); 
+         coach1.setName("Duckey"); 
+         coach1.setTeam("Bren Esports"); 
+                  
+         coach2 = new Coach(); 
+         coach2.setName("Leathergoods"); 
+         coach2.setTeam("Bren Esports"); 
+  
+         before = new EsportsTeam(); 
+         before.setHandler((coach1)); 
+         before.activeplayer((6)); 
+  
+         after = new EsportsTeam(); 
+         after.setHandler((coach2)); 
+                 after.activeplayer((8)); 
+                  
+                 System.out.println(before.toString()); 
+                 System.out.println(" Year: 2020:"); 
+                 System.out.println(" KarlTzy, Flap, Pheww" + "\n"); 
+                  
+         System.out.println(after.toString()); 
+         System.out.println(" Year: 2022:"); 
+                 System.out.println(" Kyle, Marco" + "\n"); 
+                  
+     } 
+ }
